@@ -28,3 +28,6 @@ Ja saps que et trobes a les últimes setmanes a EverPia. I precisament per això
 
 Aquest projecte representa la darrera etapa del període de pràctiques internes dels alumnes dins l’empresa EverPia, on han estat treballant en qualitat de junior IT durant tot el trimestre.
 
+### Tasques i productes finals
+
+
