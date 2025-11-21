@@ -29,6 +29,20 @@ Ja saps que et trobes a les últimes setmanes a EverPia. I precisament per això
 Aquest projecte representa la darrera etapa del període de pràctiques internes dels alumnes dins l’empresa EverPia, on han estat treballant en qualitat de junior IT durant tot el trimestre.
 
 ### Tasques
-|[tasca1](T01)
+[tasca1](T01)
 
+[tasca2](T02)
 
+[tasca3](T03)
+
+[tasca4](T04)
+
+[tasca5](T05)
+
+[tasca6](T06)
+
+[tasca7](T07)
+
+[tasca9](T09)
+
+[tasca10](T10)
