@@ -1,8 +1,8 @@
 # T09 Guia NFS
 
 ## Fase 1
-### CRear dos grups
-
+### Crearem dos grups un sera admins i l'altre sera devs
+[img1](/img/img.1)
 
 
 
