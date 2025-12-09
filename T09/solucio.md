@@ -5,7 +5,11 @@
 
 [img01](/T09/img/img01.png)
 
-### creamos el usuario 
+### creame l'usuario dev01 i el ficarem al group devs
+
+
+
+### creame l'usuario admin01 i el ficarem al group devs
 
 
 
