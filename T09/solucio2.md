@@ -13,6 +13,7 @@ Aquesta guia resumeix els passos i proves descrits al README original del projec
 - Configurar dues interfícies de xarxa: NAT (Internet) i Host-only (comunicació interna).
 - Actualitzar els sistemes i verificar connexió entre màquines.
 
+
 ---
 
 ## Fase 2: Preparació del servidor
@@ -20,21 +21,46 @@ Aquesta guia resumeix els passos i proves descrits al README original del projec
 
 **Accions:**
 - Crear grups: `devs` i `admins`.
+
+![img](img/img01.png)
+
+  
 - Crear usuaris: `dev01` (grup devs) i `admin01` (grup admins).
+
+![img](img/img02.png)
+![img](img/img03.png)
+
+
 - Crear directoris:
   - `/srv/nfs/dev_projects`
   - `/srv/nfs/admin_tools`
+
+![img](img/img04.png)
+
+    
 - Assignar permisos:
   - Developers → control total sobre `dev_projects`.
   - Administradors → control sobre `admin_tools`.
   - Propietari: `root`.
+ 
+![img](img/img05.png)
+![img](img/img06.png)
+
 - Instal·lar paquets NFS i configurar `/etc/exports`.
+
+![img](img/img07.png)
+![img](img/img08.png)
+![img](img/img09.png)
 
 ---
 
 ## Fase 3: Exportació d’Administració (root_squash)
 **Prova 1 (Error comú):**
 - Exportar `/srv/nfs/admin_tools` amb `rw,sync`.
+
+![img](img/img12.png)
+
+
 - Muntar al client: `/mnt/admin_tools`.
 - Crear fitxer com a root i comprovar propietari → explicar `root_squash`.
 
