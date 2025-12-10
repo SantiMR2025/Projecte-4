@@ -59,7 +59,7 @@ Aquesta guia resumeix els passos i proves descrits al README original del projec
 
 ---
 
-## ✅ Fase 5: Muntatge automàtic amb `/etc/fstab`
+## Fase 5: Muntatge automàtic amb `/etc/fstab`
 **Objectiu:** Automatitzar muntatge.
 
 **Accions:**
@@ -69,7 +69,7 @@ Aquesta guia resumeix els passos i proves descrits al README original del projec
 
 ---
 
-## ✅ Conclusió
+## Conclusió
 - Redactar recomanacions per millorar la solució:
   - Autenticació centralitzada.
   - Gestió d’usuaris i permisos més robusta.
@@ -77,7 +77,7 @@ Aquesta guia resumeix els passos i proves descrits al README original del projec
 
 ---
 
-📌 **Com lliurar la tasca:**
+**Com lliurar la tasca:**
 - Documenta cada fase amb comandes en format codi.
 - Inclou captures de pantalla.
 - Respon les preguntes tècniques (root_squash, permisos).
