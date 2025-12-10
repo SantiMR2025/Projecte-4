@@ -1,10 +1,10 @@
-# 📘 Guia d'Exercicis: Projecte04 Servidor NFS
+# Guia d'Exercicis: Projecte04 Servidor NFS
 
 Aquesta guia resumeix els passos i proves descrits al README original del projecte.
 
 ---
 
-## ✅ Fase 1: Preparació de l’entorn
+## Fase 1: Preparació de l’entorn
 **Objectiu:** Crear dues màquines virtuals Linux.
 
 **Accions:**
@@ -15,7 +15,7 @@ Aquesta guia resumeix els passos i proves descrits al README original del projec
 
 ---
 
-## ✅ Fase 2: Preparació del servidor
+## Fase 2: Preparació del servidor
 **Objectiu:** Configurar usuaris, grups i directoris.
 
 **Accions:**
@@ -32,7 +32,7 @@ Aquesta guia resumeix els passos i proves descrits al README original del projec
 
 ---
 
-## ✅ Fase 3: Exportació d’Administració (root_squash)
+## Fase 3: Exportació d’Administració (root_squash)
 **Prova 1 (Error comú):**
 - Exportar `/srv/nfs/admin_tools` amb `rw,sync`.
 - Muntar al client: `/mnt/admin_tools`.
@@ -45,7 +45,7 @@ Aquesta guia resumeix els passos i proves descrits al README original del projec
 
 ---
 
-## ✅ Fase 4: Exportació de Desenvolupament (rw vs ro)
+## Fase 4: Exportació de Desenvolupament (rw vs ro)
 **Objectiu:** Controlar permisos segons IP.
 
 **Accions:**
