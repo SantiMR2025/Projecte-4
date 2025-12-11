@@ -58,16 +58,35 @@ Aquesta guia resumeix els passos i proves descrits al README original del projec
 **Prova 1 (Error comú):**
 - Exportar `/srv/nfs/admin_tools` amb `rw,sync`.
 
-![img](img/img12.png)
+![img](img/img15.png)
 
 
 - Muntar al client: `/mnt/admin_tools`.
-- Crear fitxer com a root i comprovar propietari → explicar `root_squash`.
+
+![img](img/img22.png)
+
+  
+- Crear fitxer com a root i comprovar propietari.
+
+![img](img/img18.png)
+![img](img/img17.png)
+
 
 **Prova 2 (Solució):**
 - Afegir opció `no_root_squash` a l’exportació.
+
+![img](img/img19.png)
+
+  
 - Desmuntar i tornar a muntar.
+
+![img](img/img20.png)
+![img](img/img22.png)
+
+  
 - Crear fitxer com a root i justificar el canvi.
+
+![img](img/img23.png)
 
 ---
 
