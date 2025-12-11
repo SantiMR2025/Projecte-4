@@ -84,9 +84,10 @@ Aquesta guia resumeix els passos i proves descrits al README original del projec
 ![img](img/img22.png)
 
   
-- Crear fitxer com a root i justificar el canvi.
+- Crear fitxer com a root 
 
-![img](img/img23.png)
+![img](img/img24.png)
+![img](img/img26.png)
 
 ---
 
@@ -97,10 +98,18 @@ Aquesta guia resumeix els passos i proves descrits al README original del projec
 - Configurar `/etc/exports` amb:
   - Xarxa admins (192.168.56.0/24) → `rw`.
   - IP consultors (192.168.56.100) → `ro`.
+
+![img](img/img25.png)
+
+
 - Muntar `/mnt/dev_projects` i provar:
   - Escriure com `dev01` (funciona).
   - Canviar IP a 192.168.56.100 → només lectura.
   - Canviar usuari a `admin01` → no pot escriure (permisos locals).
+
+![img](img/img22.png)
+![img](img/img30.png)
+![img](img/img29.png)
 
 ---
 
@@ -108,22 +117,17 @@ Aquesta guia resumeix els passos i proves descrits al README original del projec
 **Objectiu:** Automatitzar muntatge.
 
 **Accions:**
-- Editar `/etc/fstab` per afegir entrades NFS.
+- Editar `/etc/fstab` per afegir entrades NFS.  
 - Executar `mount -a` per provar.
 - Reiniciar i verificar muntatge automàtic.
+![img](img/img33.png)
+
 
 ---
 
 ## Conclusió
-- Redactar recomanacions per millorar la solució:
-  - Autenticació centralitzada.
-  - Gestió d’usuaris i permisos més robusta.
-  - Seguretat en NFS (xifrat, firewalls, etc.).
+- Autenticació centralitzada.
+- Gestió d’usuaris i permisos més robusta.
+- Seguretat en NFS (xifrat, firewalls, etc.).
 
----
 
-**Com lliurar la tasca:**
-- Documenta cada fase amb comandes en format codi.
-- Inclou captures de pantalla.
-- Respon les preguntes tècniques (root_squash, permisos).
-- Escriu una conclusió raonada amb millores.
