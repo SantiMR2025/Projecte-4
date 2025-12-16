@@ -1,6 +1,6 @@
-# GUIA BACKUPS T02
-
-#instalacio de duplicati
+# **GUIA BACKUPS T02**
+# windows11
+## instalacio de duplicati
 Entrem a la pagiaweb i iniciem sesio/crear un compte  
 ![img](img/img03.png)
 
@@ -10,7 +10,7 @@ Descarregue el duplicati.setup
 initzialitzem el duplicati.setup
 ![img](img/img02.png)
 
-# Configuracio
+## Configuracio
 initzialitzar la aplicacio de duplicati i seleccionem la opcio de backups
 ![img](img/img04.png)
 
@@ -29,8 +29,9 @@ initzialitzar la aplicacio de duplicati i seleccionem la opcio de backups
 5. seleccionem de quina mida es fara el backup i li donem a submit
 ![img](img/img08.png)
 
-
-
+## Backup
+iniciem la aplicacio de duplicati iseleccionem la opcio de 
+![img](img/img08.png)
 
 
 
