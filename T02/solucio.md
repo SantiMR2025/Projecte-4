@@ -42,13 +42,49 @@ Inicialitzem i formatem el disc amb XFS
 ![img](img/img18.png)
 
 Creem la carpeta per muntar-lo
+
 ![img](img/img19.png)
 
+
 Muntem manualment el disc
+
 ![img](img/img20.png)
 
+
 Comprovem que hem montat el disc
+
 ![img](img/img21.png)
+
+
+Instalem duplicity
+![img](img/img22.png)
+
+Creem dos usuaris
+![img](img/img23.png)
+![img](img/img24.png)
+
+Creem 4 fitchers de 10 MB 
+![img](img/img25.png)
+
+Crem el backup de les carpetes que em creat
+
+![img](img/img26.png)
+![img](img/img27.png)
+
+
+borrem les 4 carpetas ateriors
+![img](img/img28.png)
+
+Fem el Buckup i comprovem que s'han recuperat
+![img](img/img2.png)
+![img](img/img29.png)
+
+creem un quint fitxer de 4 MB
+![img](img/img30.png)
+
+
+Fem una copia incremental
+![img](img/img.png)
 
 
 
