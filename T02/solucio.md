@@ -30,15 +30,25 @@ initzialitzar la aplicacio de duplicati i seleccionem la opcio de backups
 ![img](img/img08.png)
 
 ## Backup
-iniciem la aplicacio de duplicati iseleccionem la opcio de 
-![img](img/img08.png)
+iniciem la aplicacio de duplicati iseleccionem la opcio de restore
+![img](img/img04.png)
+
+escollim quin backup volem initzialitzar (si tens mes d'un) i despres esperem a que el Backup termini
+![img](img/img17.png)
 
 
+# Ubuntus
+Inicialitzem i formatem el disc amb XFS
+![img](img/img18.png)
 
+Creem la carpeta per muntar-lo
+![img](img/img19.png)
 
+Muntem manualment el disc
+![img](img/img20.png)
 
-
-
+Comprovem que hem montat el disc
+![img](img/img21.png)
 
 
 
