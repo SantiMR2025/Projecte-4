@@ -9,8 +9,6 @@
 | **SO compatibles**              | Windows, macOS, Linux, iOS, Android, Raspberry Pi. | Windows, macOS, Linux, Android, iOS, Chrome OS, Raspberry Pi. | Windows, macOS, Linux, Android, iOS (via app Chrome). | Windows, macOS, Linux, Android, iOS; inclou dispositius mòbils i IoT. |
 | **Model de preu (Llicència)**  | Versió gratuïta només per ús personal. Plans des de ~ 24,90 $/mes per usuari amb un canal, fins a 229,90 $/mes per 30 usuaris. | Versió gratuïta per a ús personal. Plans: Solo 22,90 $ (1 usuari), Standard 35,90 $ (fins 20 usuaris), Advanced 79,90 $. | Totalment gratuït sense límits per usos bàsics; sense versió premium. | Versió gratuïta limitada (1 tècnic, 5 equips sense vigilància). Plans des de 10 $/mes per tècnic fins a 24 $/mes amb funcions avançades. |
 
----
-
 ## Recomanació
 
 Per a **EverPia**, que proporciona suport en entorns mixtos i busca l’equilibri entre facilitat d’ús, funcionalitat robusta i cost controlat, la millor opció és **AnyDesk**.
