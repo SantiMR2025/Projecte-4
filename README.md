@@ -1,5 +1,4 @@
-# Projecte-4
-## EverPia 3: “Sobreviure en una empresa IT”
+# Projecte4 EverPia
 
 Després de setmanes convivint amb el ritme imprevisible d’una consultora tecnològica, arriba al darrer capítol de la trilogia EverPia. És un moment que combina entusiasme, maduresa i una sensació molt real: aquesta etapa s’acaba, i comença alguna cosa nova.
 
